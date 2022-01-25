@@ -1,6 +1,5 @@
 const express = require('express')
 const rutasProductos = require('./rutas_productos.js')
-const Productos = require('./productos.js')
 
 const app = express()
 app.use(express.json())
